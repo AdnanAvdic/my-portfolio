@@ -13,9 +13,9 @@ const HeroSection = () => {
         lg:max-w-[1000px]
         xl:max-w-[1100px]"
       >
-        <div className=" grid grid-cols-1 lg:grid-cols-2  items-center">
+        <div className="flex flex-col lg:flex-row items-center gap-12">
           <div
-            className="relative mx-auto w-72 h-72 
+            className="relative w-72 h-72 
             border-solid border-[3px] border-[#FF5A5F] rounded-full
             lg:w-[420px] lg:h-[420px]"
           >
@@ -51,7 +51,7 @@ const HeroSection = () => {
               I'm <span className="text-[#FF5A5F] ">&lt; Adnan /&gt;</span>
             </h1>
 
-            <p className="">
+            <p>
               As a web developer, I have a passion for building beautiful and
               functional websites.
             </p>
@@ -59,12 +59,13 @@ const HeroSection = () => {
             <div className="flex gap-4 text-sm font-medium justify-start items-center">
               <button
                 className="bg-[#101126] py-3 px-6 text-[#FF5A5F] 
-            border-solid border-[1px] border-[#FF5A5F] rounded-full "
+            border-solid border-[1px] border-[#FF5A5F] rounded-full
+            active:scale-95 transition transform"
               >
                 My projects
               </button>
 
-              <button className=" bg-[#FF5A5F] py-3 px-8 rounded-full ">
+              <button className=" bg-[#FF5A5F] py-3 px-8 rounded-full active:scale-95 transition transform ">
                 Work with me?
               </button>
             </div>

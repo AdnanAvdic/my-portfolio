@@ -15,7 +15,7 @@ const AboutSection = () => {
           <div className="space-y-8">
             <div className="flex flex-wrap">
               <h2
-                className=" text-white text-2xl border-b-[1px] border-[#FF5A5F]
+                className=" text-white text-2xl border-b-[2px] border-[#FF5A5F]
             lg:text-4xl"
               >
                 About me
@@ -24,7 +24,7 @@ const AboutSection = () => {
 
             <div className=" text-white">
               <p>
-                <span className="text-[#FF5A5F]">&lt; </span>
+                <span className="text-[#FF5A5F]"></span>
                 Hi, my name is Adnan Avdic and I am a self-taught web developer.
                 I am 24 years old and have always had a passion for technology
                 and building things from scratch
@@ -34,7 +34,7 @@ const AboutSection = () => {
                 I have spent countless hours learning and practicing my skills,
                 and I am constantly amazed by the endless possibilities of the
                 web
-                <span className="text-[#FF5A5F]"> /&gt;</span>
+                <span className="text-[#FF5A5F]"></span>
               </p>
             </div>
 

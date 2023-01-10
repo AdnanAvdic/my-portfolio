@@ -55,7 +55,7 @@ const AboutSection = () => {
           <div className="pt-8">
             <div className=" relative w-[300px] h-[400px] lg:w-[339px] lg:h-[444px] mx-auto">
               <Image
-                src="/image.svg"
+                src="/Image.svg"
                 alt="my image"
                 fill
                 className=" object-contain"

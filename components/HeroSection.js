@@ -48,7 +48,8 @@ const HeroSection = () => {
               className="text-2xl font-semibold
             lg:text-4xl "
             >
-              I'm <span className="text-[#FF5A5F] ">Adnan</span>
+              I<span className="">&apos;</span>m
+              <span className="text-[#FF5A5F] "> Adnan</span>
             </h1>
 
             <p>

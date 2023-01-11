@@ -49,7 +49,7 @@ const Services = () => {
             <div className=" absolute top-16 left-9 text-white z-50 space-y-6 ">
               <ComputerDesktopIcon className=" w-16 h-16" />
               <h3 className="text-lg">Web Development</h3>
-              <p className="text-sm">
+              <p className="text-sm max-w-[300px]">
                 I am a web developer who specializes in JavaScript, React and
                 Next.js
               </p>
@@ -72,7 +72,7 @@ const Services = () => {
             <div className=" absolute top-16 left-9 text-white z-50 space-y-6 ">
               <CodeBracketSquareIcon className="w-16 h-16" />
               <h3 className="text-lg">Web Design</h3>
-              <p className="text-sm">
+              <p className="text-sm max-w-[300px]">
                 Tools like Figma and Tailwind CSS help me to make stunning and
                 functional websites
               </p>
@@ -95,7 +95,7 @@ const Services = () => {
             <div className=" absolute top-16 left-9 text-white z-50 space-y-6 ">
               <SiWebflow className="w-14 h-14" />
               <h3 className="text-lg">Webflow Development</h3>
-              <p className="text-sm">
+              <p className="text-sm max-w-[300px]">
                 Strong fundation in creating custom websites using webflow
                 platform
               </p>
@@ -117,7 +117,7 @@ const Services = () => {
             <div className=" absolute top-16 left-9 text-white z-50 space-y-6 ">
               <DevicePhoneMobileIcon className="w-16 h-16" />
               <h3 className="text-lg">App Design</h3>
-              <p className="text-sm">
+              <p className="text-sm max-w-[300px]">
                 Creating user-friendly mobile experiences with tools like Figma
               </p>
             </div>

@@ -13,9 +13,9 @@ const HeroSection = () => {
         lg:max-w-[1000px]
         xl:max-w-[1100px]"
       >
-        <div className="flex flex-col lg:flex-row items-center gap-12">
+        <div className="flex flex-col lg:flex-row items-center gap-6">
           <div
-            className="relative w-72 h-72 
+            className="relative w-72 h-72
             border-solid border-[3px] border-[#FF5A5F] rounded-full
             lg:w-[420px] lg:h-[420px]"
           >

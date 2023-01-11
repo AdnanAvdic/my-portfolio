@@ -5,14 +5,14 @@ const AboutSection = () => {
     <section className="py-12 lg:py-24">
       <div
         className=" mx-auto space-y-8
-        max-w-md
+        max-w-sm
         sm:max-w-xl
         md:max-w-2xl
         lg:max-w-[1000px]
         xl:max-w-[1100px]"
       >
         <div className="flex flex-col lg:flex-row  lg:gap-32  items-center">
-          <div className="space-y-8">
+          <div className="space-y-8 pb-16">
             <div className="flex flex-wrap">
               <h2
                 className=" text-white text-2xl border-b-[2px] border-[#FF5A5F]
@@ -52,7 +52,7 @@ const AboutSection = () => {
             </div>
           </div>
 
-          <div className="pt-8">
+          <div>
             <div className=" relative w-[300px] h-[400px] lg:w-[339px] lg:h-[444px] mx-auto">
               <Image
                 src="/Image.svg"

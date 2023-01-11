@@ -7,7 +7,7 @@ const HeroSection = () => {
     <section className=" bg-[#101126] py-12 lg:py-24">
       <div
         className="mx-auto space-y-8
-        max-w-md
+        max-w-sm
         sm:max-w-xl
         md:max-w-2xl
         lg:max-w-[1000px]

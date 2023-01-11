@@ -20,7 +20,7 @@ const Navbar = () => {
     <>
       <header
         className="sticky flex justify-between items-center mx-auto py-6 
-      max-w-md 
+      max-w-sm
       sm:max-w-xl
       md:max-w-2xl
       lg:max-w-[1000px]

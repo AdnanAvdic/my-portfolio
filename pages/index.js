@@ -1,7 +1,9 @@
 import Head from "next/head";
 import AboutSection from "../components/AboutSection";
+import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
+import Projects from "../components/Projects";
 import Services from "../components/Services";
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <Services />
+      <Projects />
+      <Footer />
     </>
   );
 }

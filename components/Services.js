@@ -33,7 +33,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 place-content-between">
+        <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className=" relative w-96 h-72 sm:mx-auto lg:ml-auto lg:mr-4">
             <Image
               src="/web-design.jpg"

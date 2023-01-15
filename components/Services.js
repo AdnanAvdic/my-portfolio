@@ -8,7 +8,7 @@ import { SiWebflow } from "react-icons/si";
 
 const Services = () => {
   return (
-    <section className="bg-[#101126] py-12 lg:py-24">
+    <section className="bg-[#101126] py-12 lg:py-24" id="services">
       <div
         className="mx-auto space-y-8
         max-w-sm
@@ -43,10 +43,10 @@ const Services = () => {
             />
             <div
               className=" bg-gradient-to-r from-[#51E0FF] to-[#0029FF]
-            opacity-70 w-96 h-64 z-50 absolute top-4 left-0 "
+            opacity-70 w-96 h-64 z-49 absolute top-4 left-0 "
             ></div>
 
-            <div className=" absolute top-16 left-9 text-white z-50 space-y-6 ">
+            <div className=" absolute top-16 left-9 text-white z-49 space-y-6 ">
               <ComputerDesktopIcon className=" w-16 h-16" />
               <h3 className="text-lg">Web Development</h3>
               <p className="text-sm max-w-[300px]">
@@ -66,10 +66,10 @@ const Services = () => {
 
             <div
               className=" bg-gradient-to-r from-orange-500 to-orange-700
-            opacity-70 w-96 h-64 z-50 absolute top-4 left-0  "
+            opacity-70 w-96 h-64 z-49 absolute top-4 left-0  "
             ></div>
 
-            <div className=" absolute top-16 left-9 text-white z-50 space-y-6 ">
+            <div className=" absolute top-16 left-9 text-white z-49 space-y-6 ">
               <CodeBracketSquareIcon className="w-16 h-16" />
               <h3 className="text-lg">Web Design</h3>
               <p className="text-sm max-w-[300px]">
@@ -89,10 +89,10 @@ const Services = () => {
 
             <div
               className=" bg-gradient-to-r from-[#C751FF] to-[#CC00FF]
-            opacity-70 w-96 h-64 z-50 absolute top-4 left-0 "
+            opacity-70 w-96 h-64 z-49 absolute top-4 left-0 "
             ></div>
 
-            <div className=" absolute top-16 left-9 text-white z-50 space-y-6 ">
+            <div className=" absolute top-16 left-9 text-white z-49 space-y-6 ">
               <SiWebflow className="w-14 h-14" />
               <h3 className="text-lg">Webflow Development</h3>
               <p className="text-sm max-w-[300px]">
@@ -112,9 +112,9 @@ const Services = () => {
 
             <div
               className=" bg-gradient-to-r from-green-500 to-[#00FF29] 
-            opacity-70 w-96 h-64 z-50 absolute top-4 left-0 "
+            opacity-70 w-96 h-64 z-49 absolute top-4 left-0 "
             ></div>
-            <div className=" absolute top-16 left-9 text-white z-50 space-y-6 ">
+            <div className=" absolute top-16 left-9 text-white z-49 space-y-6 ">
               <DevicePhoneMobileIcon className="w-16 h-16" />
               <h3 className="text-lg">App Design</h3>
               <p className="text-sm max-w-[300px]">

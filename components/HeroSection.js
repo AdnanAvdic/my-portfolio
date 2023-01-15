@@ -4,9 +4,9 @@ import { IoLogoVercel } from "react-icons/io5";
 
 const HeroSection = () => {
   return (
-    <section className=" bg-[#101126] py-12 lg:py-24">
+    <section className=" bg-[#101126] py-12 lg:py-24" id="hero">
       <div
-        className="mx-auto space-y-8
+        className="mx-auto space-y-8 pt-16
         max-w-sm
         sm:max-w-xl
         md:max-w-2xl

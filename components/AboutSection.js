@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutSection = () => {
   return (
-    <section className="py-12 lg:py-24">
+    <section className="py-12 lg:py-24" id="about">
       <div
         className=" mx-auto space-y-8
         max-w-sm

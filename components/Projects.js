@@ -3,7 +3,7 @@ import { BsGithub } from "react-icons/bs";
 
 const Projects = () => {
   return (
-    <section className="py-12 lg:py-24">
+    <section className="py-12 lg:py-24" id="projects">
       <div
         className=" mx-auto space-y-8
         max-w-sm

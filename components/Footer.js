@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="">
+    <footer id="footer">
       <div className="relative">
         <div className="relative w-full h-64 md:h-80">
           <Image

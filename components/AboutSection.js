@@ -39,16 +39,21 @@ const AboutSection = () => {
             </div>
 
             <div className=" flex gap-4 text-white text-sm font-medium justify-start items-center">
-              <button className="bg-[#FF5A5F] py-3 px-6 rounded-full active:scale-95 transition transform">
-                Hire me
-              </button>
-              <button
-                className="bg-[#101126] py-3 px-8 text-[#FF5A5F] 
+              <a href="mailto:avdic_adnan@hotmail.com">
+                <button className="bg-[#FF5A5F] py-3 px-6 rounded-full active:scale-95 transition transform">
+                  Hire me
+                </button>
+              </a>
+
+              <a href="/AdnanAvdic.pdf" download>
+                <button
+                  className="bg-[#101126] py-3 px-8 text-[#FF5A5F] 
             border-solid border-[1px] border-[#FF5A5F] rounded-full
             active:scale-95 transition transform"
-              >
-                Download CV
-              </button>
+                >
+                  Download CV
+                </button>
+              </a>
             </div>
           </div>
 

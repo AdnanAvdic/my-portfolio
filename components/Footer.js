@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
 
         <div className="absolute top-28 right-0 left-0 ml-auto mr-auto w-[150px] md:top-44 active:scale-95 ease-in-out transform transition ">
-          <a className="cursor-pointer">
+          <a className="cursor-pointer" href="mailto:avdic_adnan@hotmail.com">
             <div className=" flex flex-wrap bg-white justify-center py-3 px-6 rounded-full">
               <button>Hire me</button>
             </div>

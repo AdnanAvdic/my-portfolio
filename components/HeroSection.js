@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { IoLogoVercel } from "react-icons/io5";
+import { Link } from "react-scroll";
 
 const HeroSection = () => {
   return (
@@ -58,17 +59,28 @@ const HeroSection = () => {
             </p>
 
             <div className="flex gap-4 text-sm font-medium justify-start items-center">
-              <button
-                className="bg-[#101126] py-3 px-6 text-[#FF5A5F] 
+              <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
+                className=" cursor-pointer hover:text-[#FF5A5F]"
+              >
+                <button
+                  className="bg-[#101126] py-3 px-6 text-[#FF5A5F] 
             border-solid border-[1px] border-[#FF5A5F] rounded-full
             active:scale-95 transition transform"
-              >
-                My projects
-              </button>
+                >
+                  My projects
+                </button>
+              </Link>
 
-              <button className=" bg-[#FF5A5F] py-3 px-8 rounded-full active:scale-95 transition transform ">
-                Work with me?
-              </button>
+              <a href="mailto:avdic_adnan@hotmail.com">
+                <button className=" bg-[#FF5A5F] py-3 px-8 rounded-full active:scale-95 transition transform ">
+                  Work with me?
+                </button>
+              </a>
             </div>
           </div>
         </div>

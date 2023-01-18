@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full bg-[#0a0b1e] z-50">
       <nav
-        className="flex items-center mx-auto py-6  w-full 
+        className="flex items-center mx-auto py-6  w-full justify-between 
       max-w-sm
       sm:max-w-xl
       md:max-w-2xl
